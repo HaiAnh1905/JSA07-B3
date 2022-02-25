@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 100%;
+}
+#header {
+    background-image: url(./images/hero.jpg);
+    background-size: cover;
+    height: 1100px;
+    /* filter: brightness(50%); */
+}
+#pic-nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;;
+}
+#pic-nav img{
+    margin-top: 15px;
+    width: 120px;
+    height: 120px;
+}
+#pic-nav ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+}
+#pic-nav ul li{
+    align-items: center;
+    margin: 20px;
+}
+#pic-title {
+    width: 900px;
+    transform: translate(25%,60%);
+    color: white;
+}
+#pic-title h1{
+    text-transform: uppercase;
+    font-size: 65px;
+    font-family: 'Lato', sans-serif;
+}
