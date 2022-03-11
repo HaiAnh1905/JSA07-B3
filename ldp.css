@@ -9,7 +9,7 @@ html,body {
 #header {
     background-image: url(./images/hero.jpg);
     background-size: cover;
-    height: 978px;
+    height: 100vh;
     /* filter: brightness(50%); */
 }
 #pic {
@@ -37,9 +37,14 @@ html,body {
     margin: 20px;
 }
 #pic-title {
-    /* width: 978px; */
-    transform: translate(13%,110%);
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    /* transform: translate(23%,110%); */
     color: white;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: 230px ;
 }
 #pic-title h1{
     text-transform: uppercase;
@@ -48,6 +53,7 @@ html,body {
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    margin-bottom: 0px;
 }
 #pic-title button {
     font-size: 20px;
@@ -55,6 +61,11 @@ html,body {
     border-radius: 30px;
     margin-right: 10px;
     cursor: pointer;
+    /* margin-top: 1px; */
+}
+#but {
+    display: flex;
+    margin-top: 17px;
 }
 #but1 {
     width: 176px;
